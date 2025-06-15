@@ -11,7 +11,7 @@ export default function App() {
       <main>
         <Album />
       </main>
-      <Footer davixero="Davixeros, te amo S2" text="Feito com amor por um gatinho XD" Fheart={Fheart} />
+      <Footer davixero="Davixeros xeros xeros, te amo S2" text="Feito com amor pra uma gatinha XD" Fheart={Fheart} />
     </>
   )
 }
