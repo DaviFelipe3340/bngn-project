@@ -4,6 +4,7 @@ import Pes from '../assets/pes.jpeg';
 import AfilhadaVirtual from '../assets/afilhadaVirtual.jpeg';
 import Jampa from '../assets/jampa.jpeg';
 import ParmegianaRuim from '../assets/parmegianaRuim.jpeg';
+import FormaturaCeci from '../assets/formaturaCeci.jpeg'; 
 
 
 export default function Album() {
@@ -27,7 +28,14 @@ export default function Album() {
       img: ParmegianaRuim,
       title: 'PARMEGIANA RUIM',
       text: 'Pior parmegiana que ja comi na vida, mas comi mesmo assim, O importante é que estava com você. (PERDÃO CECI)'
+    },
+    
+    {
+      img: FormaturaCeci,
+      title: 'FORMATURA DA MAIOR PESQUEIRA',
+      text: 'Hoje é um daqueles dias que ficam guardados na memória pra sempre, ver você conquistando e fechando mais esse ciclo é algo que me deixa muito feliz. Você merece tudo de bom que a vida tem a oferecer, e eu estarei sempre aqui para te apoiar e torcer por você. Parabéns pela formatura amor!(XD) Você é uma pessoa incrível e tenho certeza de que ainda vai conquistar muitas coisas na vida. Te amo muito! ❤️'
     }
+    
   ];
   return (
     <div className={styles.container}>
