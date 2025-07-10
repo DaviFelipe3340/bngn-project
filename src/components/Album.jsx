@@ -95,7 +95,7 @@ export default function Album() {
     {
       img: Youreawizardharry,
       title: 'Sdd de vc',
-      text: 'E agora tenho um pedacinho de vc cmg, comom vovó disse "estou com sdd" é oq ele fala kkkkkkkkkkkkk, e ainda tem uma cartinha que só posso abrir daq a 11 dias, ela será a proxima a aparecer por aqui 👀',
+      text: 'E agora tenho um pedacinho de vc cmg, como vovó disse "estou com sdd" é oq ele fala kkkkkkkkkkkkk, obgd pelo presente meu amor eu amei mucho mucho mucho de vdd, e ainda tem uma cartinha que só posso abrir daq a 11 dias, ela será a proxima a aparecer por aqui 👀',
     }
   ];
   return (
