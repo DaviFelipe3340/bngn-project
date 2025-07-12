@@ -76,7 +76,7 @@ export default function Album() {
 
     {
       img: Primeirobjo,
-      title: "Primeiro beijo",
+      title: "Primeiro beijo 05/07/2025 ❤",
       text: "Sei q vc odiou ela mas eu amei mucho, é a minha preferida então escolhi ela para marcar esse momento, acho engraçado como tudo aconteceu tão naturalmente e do nosso jeitinho, no escurinho do cinema kkkkkkkkkkkk, espero q esse momento tenha sido tão especial pra você quanto foi pra mim, te amo muito muito muito de vdd meu amor.",
     },
 
