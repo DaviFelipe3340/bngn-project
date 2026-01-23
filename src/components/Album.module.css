@@ -2,17 +2,21 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 2rem 1rem;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    width: 100%;
 }
 
 @media (max-width: 1200px) {
   .grid {
     grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
   }
 }
 
@@ -22,22 +26,25 @@
     gap: 1.5rem;
   }
   .container {
-    padding: 0 1rem;
+    padding: 1.5rem 0.5rem;
   }
 }
 
 @media (max-width: 500px) {
   .container {
-    padding: 0 0.5rem;
+    padding: 1rem 0.3rem;
+  }
+  .grid {
+    gap: 1rem;
   }
 }
 
 @media (max-width: 430px) {
   .container {
-    padding: 0 0.1rem;
+    padding: 0.5rem 0;
   }
   .grid {
-    gap: 1rem;
+    gap: 0.8rem;
   }
 }
 

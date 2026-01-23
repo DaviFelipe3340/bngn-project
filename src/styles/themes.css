@@ -1,12 +1,17 @@
 :root {
-    --primary-color: #e75480;
-    --secondary-color: #ffb6c1;
-    --accent-color: #ff69b4;
-    --background-color: #fff0f5;
-    --surface-color: #ffe4ec;
-    --text-color: #3a1c2a;
-    --heading-color: #b03060;
-    --border-color: #f8bbd0;
-    --shadow-color: rgba(231, 84, 128, 0.15);
+    --primary-color: #f0dfe3;
+    --secondary-color: #e8cdd3;
+    --accent-color: #d97a8a;
+    --background-color: #faf8f9;
+    --surface-color: #fcfbfc;
+    --text-color: #5a4a52;
+    --heading-color: #b85f72;
+    --border-color: #e6d0d8;
+    --shadow-color: rgba(217, 122, 138, 0.12);
+    --shadow-light: rgba(217, 122, 138, 0.07);
     --white: #ffffff;
+    --gradient-primary: linear-gradient(135deg, #f0dfe3 0%, #e8cdd3 50%, #e6d0d8 100%);
+    --gradient-accent: linear-gradient(135deg, #d97a8a 0%, #d46880 50%, #ce5772 100%);
+    --gradient-light: linear-gradient(135deg, #fcfbfc 0%, #faf8f9 50%, #f8f5f8 100%);
+    --gradient-hover: linear-gradient(135deg, #faf8f9 0%, #f5f2f5 100%);
 }
