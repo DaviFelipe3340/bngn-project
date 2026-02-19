@@ -1,0 +1,45 @@
+.filmeContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin-bottom: 3rem;
+  font-family: "Dancing Script", cursive;
+}
+
+.filmeGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .filmeGrid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .filmeContainer {
+    padding: 1rem;
+  }
+
+  .filmeGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+  }
+}

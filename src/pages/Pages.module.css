@@ -1,0 +1,42 @@
+.pageContainer {
+  margin-left: 280px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  transition: margin-left 0.3s ease;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .pageContainer {
+    margin-left: 240px;
+  }
+
+  .mainContent {
+    padding: 1.5rem 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .pageContainer {
+    margin-left: 0;
+  }
+
+  .mainContent {
+    padding: 1.2rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .pageContainer {
+    margin-left: 0;
+  }
+
+  .mainContent {
+    padding: 1rem 0;
+  }
+}
